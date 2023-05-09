@@ -1,0 +1,20 @@
+.add-product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-product form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    text-align: start;
+}
+.add-product label, input{
+  /* align to left */
+  width: 100%;
+  text-align: start;
+
+}

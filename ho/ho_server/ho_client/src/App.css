@@ -1,0 +1,119 @@
+.App {
+  background: #282c34;
+  text-align: center;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  padding: 2rem;
+}
+.App-link {
+  color: #61dafb;
+}
+
+.response{
+  font-weight: 100;
+  font-size: 0.8rem;
+  color: #fff899;
+}
+
+.App table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.App table td, .App table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  /* capitalize */
+}
+
+.App thead{
+  text-transform: capitalize;
+  background-color: #212125;
+  color: white;
+  border: 1px solid #242424;
+}
+
+
+.sync-info{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: flex-start;
+}
+
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 2rem ;
+}
+.vertical-sep{
+  width: 1px;
+  height: 300px;
+  background-color: #b8b8b8;
+}
+.header-info{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header button{
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  color: whitesmoke;
+  font-weight: bold;
+  background-color: #a6a8a6;
+  transition: background-color 0.2s ease-in-out;
+}
+.header button:hover{
+  background-color: #49574a;
+}
+
+
+.red{
+  color: red;
+}
+
+.green{
+  color: green;
+}
+
+.synced{
+  background-color: #4CAF50;
+}
+.not-synced{
+  background-color: #f44336!important;
+}
+
+.update-btn{
+  background-color: #4c53af;
+}
+
+.delete-btn{
+  background-color: #af4c4c;
+}
+
+.update-btn button,
+.delete-btn button{
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  width: 100%;
+  
+}
+
+.update-btn button:hover,
+.delete-btn button:hover {
+  background-color: #ffffff6b;
+}

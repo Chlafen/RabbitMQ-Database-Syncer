@@ -1,0 +1,21 @@
+{
+  "name": "rmb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon main.js",
+    "start:all": "concurrently \"npm run start:ho\" \"npm run start:bo1\" \"npm run start:bo2\"",
+    "start:ho":  "cd  ho/ho_server && nodemon index.js 4000",
+    "start:bo1": "cd bo/bo_server && nodemon index.js 4001",
+    "start:bo2": "cd bo/bo_server && nodemon index.js 4002"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.0.1",
+    "nodemon": "^2.0.22"
+  }
+}
